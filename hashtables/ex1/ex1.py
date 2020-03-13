@@ -8,10 +8,10 @@ from hashtables import (HashTable,
 
 def get_indices_of_item_weights(weights, length, limit):
     ht = HashTable(16)
+    # find two items who sum of weights equals limit
 
-    """
-    YOUR CODE HERE
-    """
+    # Return a tuple, where the heaviest item is index 0[0]
+    print(limit, 'limit')
 
     return None
 
